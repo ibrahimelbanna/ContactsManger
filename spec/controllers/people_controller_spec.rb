@@ -98,7 +98,7 @@ RSpec.describe PeopleController, type: :controller do
   describe "PUT #update" do
     context "with valid params" do
       let(:new_attributes) {
-        {first_name: 'NewFirstName', last_name: 'New Last Name'}
+        {first_name: 'NewFirstName', last_name: 'NewLastName'}
       }
 
       it "updates the requested person" do
